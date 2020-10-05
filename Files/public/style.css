@@ -26,7 +26,8 @@ header {
 }
 
 .container {
-
+  width: 90%;
+  margin: 0 auto;
 }
 
 .branding {
@@ -62,7 +63,9 @@ nav {
 /* Home Page Rulesets */
 
 #introduction {
-
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
 #introduction h1 {
@@ -99,7 +102,13 @@ nav {
 .instrument {
   width: 90%;
   overflow: auto;
+  background-color: white;
+  opacity: 0.9;
 
+  padding: 2% 5%;
+  margin: 5% auto;
+
+  border-radius: 5px;
 }
 
 .image {
@@ -158,19 +167,28 @@ nav {
 }
 
 #top {
+  width: 90%;
   margin: 15% auto;
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+  border-radius: 15px;
+  padding: 10px;
+
 }
 
 #top h2 {
-  margin: 3%
+  margin: 10px;
   font-size: 30px;
   font-weight: normal;
+  color: black;
 }
 
 #top p {
-  margin: 3%
+  /* margin: 3% */
   font-size: 18px;
   font-weight: lighter;
+  color: black;
 }
 
 .contact {
